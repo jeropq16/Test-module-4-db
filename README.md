@@ -22,11 +22,11 @@ Frontend  HTML, CSS , JavaScript  Backend  Node.js, Express  Database  MySQL  CS
 
 The original Excel file was manually analyzed and normalized using the first three normal forms: 
     
-    1. 1NF: Removed repeating groups and ensured atomic values.
+   1. 1NF: Removed repeating groups and ensured atomic values.
 
 2NF: Eliminated partial dependencies by creating separate tables for entities.3NF: Removed transitive dependencies to ensure data integrity. The final relational model includes entities such as: 
     
-    • Client
+   • Client
 
 InvoiceTransactionPlatform
 
