@@ -1,0 +1,24 @@
+{
+  "name": "crud_csv2",
+  "version": "1.0.0",
+  "description": "CRUD con MySQL, CSV y Node.js",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "csv": "^6.4.1",
+    "csv-parser": "^3.2.0",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "mysql2": "^3.14.3",
+    "parser": "^0.1.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}
