@@ -1,19 +1,33 @@
 # Test-module-4-db
 
  Data Management System – CRUD with SQL, JavaScript & CSV 
+ 
  Project Overview
+ 
 This project was developed as part of the performance test for Module 4 (SQL Databases) at Riwi. The goal was to design and implement a complete solution for organizing and managing financial data from Fintech platforms (Nequi and Daviplata), originally stored in disorganized Excel files. The final system includes: 
     • A normalized relational database
+    
 Mass data import from CSV full CRUD system with frontend dashboardAdvanced SQL queries for business insights 
  Developer Info
-    • Name: Jeronimo Parra Q Clan: Lovelace Email: jeronimopq1611@gmail.com 
+
+ 
+• Name: Jeronimo Parra Q Clan: Lovelace Email: jeronimopq1611@gmail.com 
+
+ 
  Technologies Used
+
 Frontend  HTML, CSS , JavaScript  Backend  Node.js, Express  Database  MySQL  CSV  Postman  Modeling  draw.io  
+
  Data Normalization
+
 The original Excel file was manually analyzed and normalized using the first three normal forms: 
+    
     1. 1NF: Removed repeating groups and ensured atomic values.
+
 2NF: Eliminated partial dependencies by creating separate tables for entities.3NF: Removed transitive dependencies to ensure data integrity. The final relational model includes entities such as: 
+    
     • Client
+
 InvoiceTransactionPlatform
 
  Relational model diagram is included in the repository as a PDF/image
